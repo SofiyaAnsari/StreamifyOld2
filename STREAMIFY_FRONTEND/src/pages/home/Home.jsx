@@ -3,6 +3,17 @@ import Featured from "../../components/featured/Featured";
 import "./home.scss";
 import List from "../../components/list/List";
 const Home = () => {
+	const [lists, setLists] = useState([]);
+
+	useEffect(()=>{
+		const getRandomLists = async () =>{
+			try{
+
+			}catch(err){
+				console.log(err)
+			}
+		}
+	})
 	return (
 		<div className="home">
 			<Navbar />
